@@ -1,0 +1,16 @@
+{
+  "name": "signal-workspace",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix signal/backend && npm install --prefix signal/frontend",
+    "dev:backend": "npm run dev --prefix signal/backend",
+    "dev:frontend": "npm run dev --prefix signal/frontend",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "firebase": "^12.12.0"
+  }
+}

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr
+*.local
+
+# Environment
+.env
+.env.development
+.env.test
+.env.production
+.env.local
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Nested projects node_modules
+signal/node_modules/
+signal/backend/node_modules/
+signal/frontend/node_modules/
+signal/backend/dist/
+signal/frontend/dist/
