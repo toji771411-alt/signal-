@@ -1,6 +1,6 @@
 import express from "express";
 import { classifyMessage, extractTasks, generateDrafts } from "../services/aiService.js";
-import { saveFeedItem, getFeed } from "../services/firebaseService.js";
+import { saveFeedItem, getFeed } from "../services/dbService.js";
 import { mockMessages } from "../data/mockMessages.js";
 import { v4 as uuidv4 } from "uuid";
 

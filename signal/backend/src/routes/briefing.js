@@ -1,5 +1,5 @@
 import express from "express";
-import { getTasks, getFeed } from "../services/firebaseService.js";
+import { getTasks, getFeed } from "../services/dbService.js";
 import OpenAI from "openai";
 
 const router = express.Router();

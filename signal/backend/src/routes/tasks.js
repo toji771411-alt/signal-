@@ -1,6 +1,6 @@
 import express from "express";
 import { extractTasks } from "../services/aiService.js";
-import { saveTasks, getTasks, updateTask } from "../services/firebaseService.js";
+import { saveTasks, getTasks, updateTask } from "../services/dbService.js";
 import { v4 as uuidv4 } from "uuid";
 
 const router = express.Router();

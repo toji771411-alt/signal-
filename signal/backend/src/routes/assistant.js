@@ -1,6 +1,6 @@
 import express from "express";
 import { runAssistant } from "../services/aiService.js";
-import { getTasks, getFeed } from "../services/firebaseService.js";
+import { getTasks, getFeed } from "../services/dbService.js";
 
 const router = express.Router();
 
