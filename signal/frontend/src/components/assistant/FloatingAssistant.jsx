@@ -88,7 +88,7 @@ export default function FloatingAssistant() {
                 <div className="w-6 h-6 rounded-lg bg-indigo-500 flex items-center justify-center">
                   <Zap className="w-3.5 h-3.5 text-white" />
                 </div>
-                <span className="text-white font-bold text-xs uppercase tracking-widest">Signal AI</span>
+                <span className="text-white font-bold text-xs uppercase tracking-widest italic">unibox AI</span>
               </div>
               <button 
                 onClick={() => setIsOpen(false)}

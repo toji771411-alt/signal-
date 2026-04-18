@@ -39,7 +39,7 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`\n🚀 SIGNAL API running on http://localhost:${PORT}`);
+  console.log('🚀 unibox API running on http://localhost:3001');
   console.log(`   Health: http://localhost:${PORT}/health`);
   console.log(`   AI Mode: ${process.env.OPENAI_API_KEY ? "OpenAI" : "Mock"}\n`);
 });
