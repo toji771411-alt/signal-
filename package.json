@@ -1,5 +1,5 @@
 {
-  "name": "signal-workspace",
+  "name": "unibox-workspace",
   "version": "1.0.0",
   "scripts": {
     "install:all": "npm install && npm install --prefix signal/backend && npm install --prefix signal/frontend",

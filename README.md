@@ -1,4 +1,4 @@
-# SIGNAL — Communication Operating System
+# unibox — Communication Operating System
 
 > AI-powered message triage that shows you only what matters.
 

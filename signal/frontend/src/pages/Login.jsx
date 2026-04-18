@@ -54,7 +54,7 @@ export default function Login() {
               <Zap className="w-5 h-5 text-white" strokeWidth={2.5} />
             </div>
             <div>
-              <span className="text-white font-bold text-xl tracking-tight">SIGNAL</span>
+              <span className="text-white font-bold text-xl tracking-tight italic">unibox</span>
               <span className="block text-[11px] text-slate-500 font-medium tracking-widest uppercase">Communication OS</span>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function Login() {
               <span className="gradient-text">the noise.</span>
             </h1>
             <p className="text-slate-400 text-lg leading-relaxed max-w-sm">
-              SIGNAL filters every message, classifies what matters, and extracts your action items — automatically.
+              unibox filters every message, classifies what matters, and extracts your action items — automatically.
             </p>
           </div>
 
@@ -124,7 +124,7 @@ export default function Login() {
             <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center">
               <Zap className="w-5 h-5 text-white" strokeWidth={2.5} />
             </div>
-            <span className="text-white font-bold text-xl">SIGNAL</span>
+            <span className="text-white font-bold text-xl italic">unibox</span>
           </div>
 
           <div>

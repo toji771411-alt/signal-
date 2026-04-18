@@ -17,7 +17,7 @@ const SUGGESTIONS = [
 
 const INITIAL_MESSAGE = {
   id: 'intro',
-  text: "Hey! I'm **SIGNAL**, your AI communication assistant.\n\nI can help you:\n• Prioritize your day\n• Find urgent messages\n• Manage your task list\n• Clean your inbox\n\nWhat do you need help with?",
+  text: "Hey! I'm **unibox**, your AI communication assistant.\n\nI can help you:\n• Prioritize your day\n• Find urgent messages\n• Manage your task list\n• Clean your inbox\n\nWhat do you need help with?",
   isUser: false,
 }
 
@@ -74,7 +74,7 @@ export default function Assistant() {
             <Zap className="w-4.5 h-4.5 text-white" size={18} />
           </div>
           <div>
-            <h1 className="text-white font-bold text-base">SIGNAL Assistant</h1>
+            <h1 className="text-white font-bold text-base italic">unibox Assistant</h1>
             <div className="flex items-center gap-1.5">
               <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
               <span className="text-slate-500 text-xs">Online · AI-powered</span>
@@ -124,7 +124,7 @@ export default function Assistant() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKey}
-              placeholder="Ask SIGNAL anything..."
+              placeholder="Ask unibox anything..."
               rows={1}
               className="signal-input resize-none overflow-hidden pr-12"
               style={{ minHeight: '48px', maxHeight: '120px' }}

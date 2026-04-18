@@ -234,7 +234,7 @@ Return ONLY valid JSON array.`;
 }
 
 async function openaiAssistant(userMessage, context) {
-  const prompt = `You are SIGNAL, an AI communication assistant. You have full rights to modify the user's workspace.
+  const prompt = `You are unibox, an AI communication assistant. You have full rights to modify the user's workspace.
 Based on the User Message and the Context, return a JSON object with:
 1. response: A helpful, concise text response.
 2. actions: An array of action objects to execute.
@@ -368,7 +368,7 @@ export function mockAssistantResponse(userMessage, tasks = [], feed = []) {
         actions: [{ label: "View All Tasks", href: "/tasks" }],
       };
     }
-    return { response: "No tasks extracted yet. Go to your feed and let SIGNAL analyze your messages.", actions: [{ label: "Go to Feed", href: "/feed" }] };
+    return { response: "No tasks extracted yet. Go to your feed and let unibox analyze your messages.", actions: [{ label: "Go to Feed", href: "/feed" }] };
   }
 
   if (msg.includes("clean") || msg.includes("inbox") || msg.includes("noise")) {
@@ -388,7 +388,7 @@ export function mockAssistantResponse(userMessage, tasks = [], feed = []) {
 
   if (msg.includes("hello") || msg.includes("hi") || msg.includes("hey")) {
     return {
-      response: "Hey! I'm SIGNAL, your communication assistant. Ask me things like:\n\n• \"What should I do today?\"\n• \"Show urgent messages\"\n• \"How many tasks do I have?\"\n• \"Clean my inbox\"",
+      response: "Hey! I'm unibox, your communication assistant. Ask me things like:\n\n• \"What should I do today?\"\n• \"Show urgent messages\"\n• \"How many tasks do I have?\"\n• \"Clean my inbox\"",
       actions: [],
     };
   }

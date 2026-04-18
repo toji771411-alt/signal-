@@ -38,7 +38,7 @@ export default function Sidebar() {
             <Zap className="w-4 h-4 text-white" strokeWidth={2.5} />
           </div>
           <div>
-            <span className="text-white font-bold text-base tracking-tight">SIGNAL</span>
+            <span className="text-white font-bold text-base tracking-tight italic">unibox</span>
             <span className="block text-[10px] text-slate-500 font-medium tracking-widest uppercase">Comm OS</span>
           </div>
         </motion.div>
@@ -86,7 +86,7 @@ export default function Sidebar() {
 
       {/* Stats summary */}
       <div className="mx-3 mb-4 p-3 rounded-xl bg-white/[0.03] border border-white/[0.05]">
-        <p className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold mb-2">Signal Overview</p>
+        <p className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold mb-2">unibox Overview</p>
         <div className="grid grid-cols-2 gap-1.5">
           {[
             { label: 'Urgent', value: stats.urgent, color: 'text-red-400' },
@@ -137,7 +137,7 @@ export default function Sidebar() {
           </div>
           <div className="flex-1 min-w-0">
             <p className="text-white text-xs font-medium truncate">{user?.displayName || 'User'}</p>
-            <p className="text-slate-500 text-[10px] truncate">{user?.email || 'demo@signal.app'}</p>
+            <p className="text-slate-500 text-[10px] truncate">{user?.email || 'demo@unibox.app'}</p>
           </div>
           <button
             onClick={handleLogout}
